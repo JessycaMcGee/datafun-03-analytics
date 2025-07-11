@@ -1,0 +1,19 @@
+2025-07-11 17:57:58.669 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 17:57:58.670 | INFO     | __main__:<module>:97 - Starting CSV processing...
+2025-07-11 17:57:58.671 | ERROR    | __main__:analyze_ladder_score:60 - Error processing CSV file: [Errno 2] No such file or directory: 'example_data\\2020_happiness.csv'
+2025-07-11 18:04:24.821 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 18:04:24.823 | INFO     | __main__:<module>:97 - Starting CSV processing...
+2025-07-11 18:04:24.872 | INFO     | __main__:process_csv_file:90 - Processed CSV file: example_data\2020_happiness.csv, Statistics saved to: example_processed\happiness_ladder_score_stats.txt
+2025-07-11 18:04:24.873 | INFO     | __main__:<module>:99 - CSV processing complete.
+2025-07-11 18:05:00.012 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 18:05:00.013 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-07-11 18:05:00.096 | INFO     | __main__:process_excel_file:76 - Processed Excel file: example_data\Feedback.xlsx, Word count saved to: example_processed\excel_feedback_github_count.txt
+2025-07-11 18:05:00.097 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-07-11 18:05:17.319 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 18:05:17.320 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-07-11 18:05:17.362 | INFO     | __main__:process_json_file:111 - Processed JSON file: example_data\astros.json, Results saved to: example_processed\json_astronauts_by_craft.txt
+2025-07-11 18:05:17.363 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-07-11 18:05:28.085 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 18:05:28.086 | INFO     | __main__:<module>:72 - Starting text processing...
+2025-07-11 18:05:28.154 | INFO     | __main__:process_text_file:65 - Processed text file: example_data\romeo.txt, Word count saved to: example_processed\text_romeo_word_count.txt
+2025-07-11 18:05:28.155 | INFO     | __main__:<module>:74 - Text processing complete.
